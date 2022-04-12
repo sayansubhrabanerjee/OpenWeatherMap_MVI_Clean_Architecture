@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/weathersFragment">
+
+    <fragment
+        android:id="@+id/weathersFragment"
+        android:name="com.example.weather_clean_mvi_rx.presentation.ui.WeathersFragment"
+        android:label="Weathers"
+        tools:layout="@layout/fragment_weathers">
+        <action
+            android:id="@+id/action_weathersFragment_to_weatherDetailsFragment"
+            app:destination="@id/weatherDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherDetailsFragment"
+        android:name="com.example.weather_clean_mvi_rx.presentation.ui.WeatherDetailsFragment"
+        android:label="Weather Details"
+        tools:layout="@layout/fragment_weather_details" />
+</navigation>
