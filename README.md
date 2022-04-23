@@ -7,6 +7,6 @@ This app is developed following the principles of MVVM Clean Architecture. To de
 5. Retrofit
 6. Moshi
 7. Navigation Component
-8. Glide library for image fecth/cache mechanism
+8. Glide library for image fetch/cache mechanism
 9. CustomView
 10. Lottie Animation
